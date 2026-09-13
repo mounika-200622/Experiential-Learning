@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850" role="img" aria-label="UML component diagram of the Self-Service Coffee Kiosk as a three-layer architecture. Presentation layer: User Interface component. Business layer: Order Manager, Payment Service and Receipt Printer components (Order Manager and Payment Service are supplied in the brief). Data layer: Menu and Pricing Data Store component. User Interface requires an Order Interface provided by Order Manager. Order Manager requires a Payment Interface from Payment Service, a Receipt Interface from Receipt Printer, and a Database Interface from the Menu and Pricing Data Store. Payment Service requires a Card Network interface from an external Card Payment Gateway. Receipt Printer requires a Printer Hardware interface from an external thermal printer." font-family="Segoe UI, system-ui, -apple-system, Helvetica, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo3NjM1ZmE1MS1jN2U3LTQyNjMtYTkwOS1jOGVhZDVhY2M5NTYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaPiDIhKUmAEJLcuBIb36zywAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDphZWJkYjNkYS0wMmI3LTRlMWEtOTg3NS04NDgzN2YyMzk3ZDFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNomEWYQUGp+fPQ3GozAiWzEwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggECswyYYtQW8srhxRgPNNJazFzA7TUskWVz64ZFeHPWikZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaF72VTp9DcIuYxfEzUqsTYAAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIKzX0MAjhep4oQKYlYYc2hKl9cdsw+ll1M7/6Fz7JRCpZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQPkZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjc2MzVmYTUxLWM3ZTctNDI2My1hOTA5LWM4ZWFkNWFjYzk1Ni9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjI3Zjk4YTJjLTFlMWQtNDJkMi04M2MyLTM3YTkyMjU5NDFjN3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAQKzDJhi1BbyyuHFGA800lrMXMDtNSyRZXPrhkV4c9aKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg44l1Dzn/apxxd67Uv/TWx1Spay1ShziMZ74e8Fbyk3miY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgguZrRtE1yW6OzxNIeb5tAoQ3+sSPwlkxoiFOqAF3gTrB0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQEi6WsfksP8BVXN7z+8HXgzZQFHIHjve1tRRbVX0+2gw1eKi15EQYxrY6NwAU9ko1TlgUfc7Ka4lI3LAoFnvwAk=</c2pa:manifest></metadata>
+  <rect x="0" y="0" width="1400" height="850" fill="#ffffff"/>
+
+  <!-- TITLE -->
+  <text x="235" y="40" font-size="16" font-weight="700" fill="#1b2430">Component Diagram &#183; Self-Service Coffee Kiosk</text>
+  <text x="235" y="58" font-size="10.5" fill="#78838f">Layered architecture &#8212; PES1UG24CS311 &#183; SE Lab 3</text>
+
+  <!-- LAYER FRAMES -->
+  <g fill="none" stroke="#b3bbc3" stroke-width="1.25">
+    <rect x="235" y="135" width="930" height="132" rx="3"/>
+    <rect x="235" y="611" width="930" height="132" rx="3"/>
+    <!-- Business frame: sides broken where the side interfaces pass through -->
+    <line x1="235" y1="373" x2="1165" y2="373"/>
+    <line x1="235" y1="541" x2="1165" y2="541"/>
+    <line x1="235" y1="373" x2="235" y2="438"/>
+    <line x1="235" y1="498" x2="235" y2="541"/>
+    <line x1="1165" y1="373" x2="1165" y2="438"/>
+    <line x1="1165" y1="498" x2="1165" y2="541"/>
+  </g>
+  <g>
+    <rect x="235" y="117" width="140" height="20" rx="2" fill="#eef1f4" stroke="#b3bbc3" stroke-width="1.25"/>
+    <text x="247" y="131" font-size="11" font-weight="600" fill="#5b6874">Presentation</text>
+    <rect x="235" y="355" width="140" height="20" rx="2" fill="#eef1f4" stroke="#b3bbc3" stroke-width="1.25"/>
+    <text x="247" y="369" font-size="11" font-weight="600" fill="#5b6874">Business</text>
+    <rect x="235" y="593" width="140" height="20" rx="2" fill="#eef1f4" stroke="#b3bbc3" stroke-width="1.25"/>
+    <text x="247" y="607" font-size="11" font-weight="600" fill="#5b6874">Data</text>
+  </g>
+  <g font-size="9" font-style="italic" fill="#9aa4ae" text-anchor="end">
+    <text x="1150" y="156">input &amp; rendering only</text>
+    <text x="1150" y="394">all business logic &amp; orchestration</text>
+    <text x="1150" y="632">persistence only</text>
+  </g>
+
+  <!-- ================= ASSEMBLY CONNECTORS ================= -->
+  <g stroke="#40515f" stroke-width="1.5" fill="none">
+    <!-- 1 Order Interface : User Interface requires / Order Manager provides -->
+    <line x1="700" y1="263" x2="700" y2="301"/>
+    <path d="M689,312 A11,11 0 0 1 711,312"/>
+    <line x1="700" y1="418" x2="700" y2="325"/>
+    <!-- 2 Payment Interface : Payment Service provides / Order Manager requires -->
+    <line x1="450" y1="468" x2="466" y2="468"/>
+    <line x1="480" y1="468" x2="543" y2="468"/>
+    <path d="M549,457 A11,11 0 0 1 549,479"/>
+    <line x1="560" y1="468" x2="565" y2="468"/>
+    <!-- 3 Receipt Interface : Order Manager requires / Receipt Printer provides -->
+    <line x1="835" y1="468" x2="840" y2="468"/>
+    <path d="M846,457 A11,11 0 0 0 846,479"/>
+    <line x1="857" y1="468" x2="920" y2="468"/>
+    <line x1="934" y1="468" x2="950" y2="468"/>
+    <!-- 4 Database Interface : Order Manager requires / Data Store provides -->
+    <line x1="700" y1="518" x2="700" y2="545"/>
+    <path d="M689,556 A11,11 0 0 1 711,556"/>
+    <line x1="700" y1="623" x2="700" y2="569"/>
+    <!-- 5 Card Network : Card Payment Gateway provides / Payment Service requires -->
+    <line x1="174" y1="468" x2="190" y2="468"/>
+    <line x1="204" y1="468" x2="228" y2="468"/>
+    <path d="M234,458 A10,10 0 0 1 234,478"/>
+    <line x1="244" y1="468" x2="250" y2="468"/>
+    <!-- 6 Printer Hardware : Thermal Printer provides / Receipt Printer requires -->
+    <line x1="1150" y1="468" x2="1154" y2="468"/>
+    <path d="M1160,458 A10,10 0 0 0 1160,478"/>
+    <line x1="1171" y1="468" x2="1200" y2="468"/>
+    <line x1="1214" y1="468" x2="1226" y2="468"/>
+  </g>
+
+  <g fill="#ffffff" stroke="#40515f" stroke-width="1.5">
+    <circle cx="700" cy="318" r="6.5"/>
+    <circle cx="473" cy="468" r="6.5"/>
+    <circle cx="927" cy="468" r="6.5"/>
+    <circle cx="700" cy="562" r="6.5"/>
+    <circle cx="197" cy="468" r="6"/>
+    <circle cx="1207" cy="468" r="6"/>
+  </g>
+
+  <!-- interface labels -->
+  <g fill="#1b2430" font-size="11">
+    <text x="718" y="308">Order Interface</text>
+    <text x="507" y="440" text-anchor="middle">Payment Interface</text>
+    <text x="892" y="440" text-anchor="middle">Receipt Interface</text>
+    <text x="718" y="552">Database Interface</text>
+  </g>
+  <g fill="#78838f" font-size="9.5">
+    <text x="718" y="322">&#171;local call&#187;</text>
+    <text x="507" y="453" text-anchor="middle">&#171;API call&#187;</text>
+    <text x="892" y="453" text-anchor="middle">&#171;API call&#187;</text>
+    <text x="718" y="566">&#171;SQL query&#187;</text>
+  </g>
+  <g fill="#1b2430" font-size="9" text-anchor="middle">
+    <text x="212" y="450">Card Network</text>
+    <text x="1188" y="450">Printer Hardware</text>
+  </g>
+  <g fill="#78838f" font-size="8" text-anchor="middle">
+    <text x="212" y="460">&#171;HTTPS/TLS&#187;</text>
+    <text x="1188" y="460">&#171;USB &#183; ESC/POS&#187;</text>
+  </g>
+
+  <!-- ================= COMPONENTS ================= -->
+  <!-- User Interface -->
+  <g>
+    <rect x="570" y="175" width="260" height="88" rx="2" fill="#ffffff" stroke="#40515f" stroke-width="1.5"/>
+    <g stroke="#40515f" stroke-width="1.3" fill="#ffffff">
+      <rect x="792" y="185" width="20" height="14"/><rect x="787" y="188" width="9" height="4"/><rect x="787" y="194" width="9" height="4"/>
+    </g>
+    <text x="700" y="212" text-anchor="middle" font-size="10" fill="#78838f">&#171;component&#187;</text>
+    <text x="700" y="231" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1b2430">User Interface</text>
+    <text x="700" y="248" text-anchor="middle" font-size="9" fill="#78838f">touch screen &#183; menu, cart, card prompt</text>
+  </g>
+
+  <!-- Order Manager (given) -->
+  <g>
+    <rect x="565" y="418" width="270" height="100" rx="2" fill="#ffffff" stroke="#40515f" stroke-width="1.5"/>
+    <rect x="566.5" y="419.5" width="3.5" height="97" fill="#b9791f"/>
+    <g stroke="#40515f" stroke-width="1.3" fill="#ffffff">
+      <rect x="797" y="428" width="20" height="14"/><rect x="792" y="431" width="9" height="4"/><rect x="792" y="437" width="9" height="4"/>
+    </g>
+    <text x="702" y="454" text-anchor="middle" font-size="10" fill="#78838f">&#171;component&#187;</text>
+    <text x="702" y="473" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1b2430">Order Manager</text>
+    <text x="702" y="490" text-anchor="middle" font-size="9" fill="#78838f">builds order, totals, orchestrates the flow</text>
+  </g>
+
+  <!-- Payment Service (given) -->
+  <g>
+    <rect x="250" y="418" width="200" height="100" rx="2" fill="#ffffff" stroke="#40515f" stroke-width="1.5"/>
+    <rect x="251.5" y="419.5" width="3.5" height="97" fill="#b9791f"/>
+    <g stroke="#40515f" stroke-width="1.3" fill="#ffffff">
+      <rect x="412" y="428" width="20" height="14"/><rect x="407" y="431" width="9" height="4"/><rect x="407" y="437" width="9" height="4"/>
+    </g>
+    <text x="352" y="454" text-anchor="middle" font-size="10" fill="#78838f">&#171;component&#187;</text>
+    <text x="352" y="473" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1b2430">Payment Service</text>
+    <text x="352" y="490" text-anchor="middle" font-size="9" fill="#78838f">authorises the card, returns a result</text>
+  </g>
+
+  <!-- Receipt Printer -->
+  <g>
+    <rect x="950" y="418" width="200" height="100" rx="2" fill="#ffffff" stroke="#40515f" stroke-width="1.5"/>
+    <g stroke="#40515f" stroke-width="1.3" fill="#ffffff">
+      <rect x="1112" y="428" width="20" height="14"/><rect x="1107" y="431" width="9" height="4"/><rect x="1107" y="437" width="9" height="4"/>
+    </g>
+    <text x="1050" y="454" text-anchor="middle" font-size="10" fill="#78838f">&#171;component&#187;</text>
+    <text x="1050" y="473" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1b2430">Receipt Printer</text>
+    <text x="1050" y="490" text-anchor="middle" font-size="9" fill="#78838f">formats the receipt, drives the device</text>
+  </g>
+
+  <!-- Menu & Pricing Data Store -->
+  <g>
+    <rect x="550" y="623" width="300" height="88" rx="2" fill="#ffffff" stroke="#40515f" stroke-width="1.5"/>
+    <g stroke="#40515f" stroke-width="1.3" fill="#ffffff">
+      <rect x="812" y="633" width="20" height="14"/><rect x="807" y="636" width="9" height="4"/><rect x="807" y="642" width="9" height="4"/>
+    </g>
+    <text x="700" y="660" text-anchor="middle" font-size="10" fill="#78838f">&#171;component&#187;</text>
+    <text x="700" y="679" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1b2430">Menu &amp; Pricing Data Store</text>
+    <text x="700" y="696" text-anchor="middle" font-size="9" fill="#78838f">menu, sizes, prices, order history</text>
+  </g>
+
+  <!-- ================= EXTERNAL SYSTEMS ================= -->
+  <g>
+    <rect x="18" y="420" width="156" height="96" rx="2" fill="#ffffff" stroke="#8b95a0" stroke-width="1.4" stroke-dasharray="5 3"/>
+    <text x="96" y="450" text-anchor="middle" font-size="9" fill="#78838f">&#171;external system&#187;</text>
+    <text x="96" y="468" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1b2430">Card Payment</text>
+    <text x="96" y="484" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1b2430">Gateway</text>
+    <text x="96" y="501" text-anchor="middle" font-size="8.5" fill="#78838f">bank / acquirer</text>
+  </g>
+  <g>
+    <rect x="1226" y="420" width="156" height="96" rx="2" fill="#ffffff" stroke="#8b95a0" stroke-width="1.4" stroke-dasharray="5 3"/>
+    <text x="1304" y="454" text-anchor="middle" font-size="9" fill="#78838f">&#171;device&#187;</text>
+    <text x="1304" y="473" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1b2430">Thermal Printer</text>
+    <text x="1304" y="491" text-anchor="middle" font-size="8.5" fill="#78838f">receipt hardware</text>
+  </g>
+
+  <!-- ================= PORTS ================= -->
+  <g fill="#ffffff" stroke="#40515f" stroke-width="1.5">
+    <rect x="696" y="259" width="8" height="8"/>
+    <rect x="696" y="414" width="8" height="8"/>
+    <rect x="561" y="464" width="8" height="8"/>
+    <rect x="831" y="464" width="8" height="8"/>
+    <rect x="696" y="514" width="8" height="8"/>
+    <rect x="446" y="464" width="8" height="8"/>
+    <rect x="246" y="464" width="8" height="8"/>
+    <rect x="946" y="464" width="8" height="8"/>
+    <rect x="1146" y="464" width="8" height="8"/>
+    <rect x="696" y="619" width="8" height="8"/>
+    <rect x="170" y="464" width="8" height="8"/>
+    <rect x="1222" y="464" width="8" height="8"/>
+  </g>
+
+  <!-- ================= LEGEND ================= -->
+  <line x1="235" y1="775" x2="1165" y2="775" stroke="#e2e6ea" stroke-width="1"/>
+  <g font-size="10" fill="#5b6874">
+    <line x1="243" y1="797" x2="257" y2="797" stroke="#40515f" stroke-width="1.5"/>
+    <circle cx="263" cy="797" r="5.5" fill="#ffffff" stroke="#40515f" stroke-width="1.5"/>
+    <text x="276" y="800">provided interface</text>
+    <path d="M403,790 A7,7 0 0 0 403,804" fill="none" stroke="#40515f" stroke-width="1.5"/>
+    <line x1="403" y1="797" x2="417" y2="797" stroke="#40515f" stroke-width="1.5"/>
+    <text x="426" y="800">required interface</text>
+    <rect x="552" y="793" width="8" height="8" fill="#ffffff" stroke="#40515f" stroke-width="1.5"/>
+    <text x="568" y="800">port</text>
+    <rect x="620" y="791" width="16" height="12" fill="#ffffff" stroke="#8b95a0" stroke-width="1.4" stroke-dasharray="4 2.5"/>
+    <text x="644" y="800">external system / device</text>
+    <rect x="828" y="790" width="3.5" height="13" fill="#b9791f"/>
+    <text x="840" y="800">component supplied in the brief</text>
+  </g>
+  <text x="235" y="826" font-size="9.5" fill="#9aa4ae">A socket gripping a ball is an assembly connector: the requester holds the socket, so a request flows socket &#8594; ball. Solid lines are in-process calls unless the protocol label says otherwise.</text>
+</svg>
