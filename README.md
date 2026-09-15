@@ -4,7 +4,7 @@
 ![Course](https://img.shields.io/badge/course-Software%20Engineering-blue)
 
 **Problem Statement:** #06 — Alumni Mentorship & Mock Interview Platform
-**Domain:** Campus & Academic Operations
+**Domain:** Campus & Academic Operations.
 
 ---
 
