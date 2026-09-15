@@ -196,7 +196,7 @@
     <text x="568" y="800">port</text>
     <rect x="620" y="791" width="16" height="12" fill="#ffffff" stroke="#8b95a0" stroke-width="1.4" stroke-dasharray="4 2.5"/>
     <text x="644" y="800">external system / device</text>
-    <rect x="828" y="790" width="3.5" height="13" fill="#b9791f"/>
+    <rect x="828" y="790" width="3.51" height="13" fill="#b9791f"/>
     <text x="840" y="800">component supplied in the brief</text>
   </g>
   <text x="235" y="826" font-size="9.5" fill="#9aa4ae">A socket gripping a ball is an assembly connector: the requester holds the socket, so a request flows socket &#8594; ball. Solid lines are in-process calls unless the protocol label says otherwise.</text>
