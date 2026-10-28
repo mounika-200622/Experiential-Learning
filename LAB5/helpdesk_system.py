@@ -17,11 +17,14 @@ def raise_ticket(user, issue_type, urgency="3", audit_trail=None):
     global TICKET_COUNTER  # pylint: disable=global-statement
     if audit_trail is None:
         audit_trail = []
+    priority = int(urgency)
+    if not 1 <= priority <= 5:
+        raise ValueError(f"Urgency must be between 1 and 5, got {priority}")
     TICKET_COUNTER += 1
     tickets[TICKET_COUNTER] = {
         "user": user,
         "issue": issue_type,
-        "priority": int(urgency),
+        "priority": priority,
         "tech": None,
         "notes": [],
     }
@@ -79,17 +82,23 @@ def main():
     """Run the demo."""
     t1 = raise_ticket("anil", "printer", "5")
     raise_ticket("meera", "wifi", "4")
-    t3 = raise_ticket("joe", "vpn", "-7")
+    try:
+        raise_ticket("joe", "vpn", "-7")
+    except ValueError as err:
+        print("Ticket rejected:", err)
     assign_ticket(t1, "Tech-Kiran")
     add_note(999, "Called user")
     print("Unassigned high priority:", unresolved_high_priority())
     level = input(
         "Urgency for a new laptop ticket (1-5, Enter for 3): "
     ) or "3"
-    raise_ticket("sana", "laptop", level)
-    close_ticket(t3, ADMIN_PASSWORD)
+    try:
+        raise_ticket("sana", "laptop", level)
+    except ValueError as err:
+        print("Ticket rejected:", err)
     save_tickets()
     print("Open tickets:", list(tickets.keys()))
 
 
-main()
+if __name__ == "__main__":
+    main()
